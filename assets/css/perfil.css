@@ -1,0 +1,118 @@
+body {
+  background-color: rgb(39, 38, 38);
+}
+
+header {
+  font-family: "Arvo";
+  display: flex;
+}
+
+#foto {
+  width: 300px;
+  height: 300px;
+  margin-top: 10rem;
+  margin-left: 30rem;
+  cursor: pointer;
+  background-color: #622222;
+  border: 5px solid #2e1d1d;
+  border-radius: 50%;
+  transition: background 0.3s;
+}
+
+#foto:hover {
+  background-color: #862828;
+  border: 5px solid #1b1a1a;
+}
+
+.text {
+  max-width: 30rem;
+  margin-left: 10rem;
+  margin-top: 8rem;
+  color: rgb(190, 184, 184);
+}
+
+.text h1 {
+  margin-left: 2rem;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.text h4 {
+  padding: 8px;
+  font-size: 15px;
+  border: solid 2px #622222;
+  padding-bottom: 35px;
+  border-radius: 25px;
+}
+
+button {
+  background-color: transparent;
+  border-color: #a12c2c;
+  color: #a12c2c;
+  padding: 3px;
+  font-weight: bold;
+  font-size: 13pt;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #622222;
+  color: #fff;
+}
+
+.my_cursos {
+  margin-top: 5rem;
+  margin-bottom: 0rem;
+  font-family: "Arvo";
+  color: rgb(190, 184, 184);
+}
+
+.cursos {
+  background-color: rgba(105, 105, 105, 0.507);
+  padding: 4rem;
+  border-radius: 15px;
+  color: rgba(190, 184, 184, 0.904);
+}
+
+.my_cursos button {
+  font-size: 13px;
+  cursor: pointer;
+  font-family: "Arvo";
+  color: rgba(172, 172, 172, 0.671);
+  border: none;
+}
+
+.my_cursos button:hover {
+  background-color: #252424;
+  color: #a12c2c;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+dialog::backdrop {
+  background-color: rgb(0 0 0 / 0.5);
+}
+
+dialog {
+  border: none;
+  border-radius: 0.8rem;
+  box-shadow: 0 0 1em rgb (0 0 0 / 0.5);
+  width: 40%;
+  background-color: rgba(53, 36, 36, 0.904);
+  color: rgb(190, 184, 184);
+}
+
+.bnt {
+  border-color: rgba(0, 0, 0, 0.836);
+  color: rgb(190, 184, 184);
+  margin-top: 20px;
+}
+
+.bnt:hover {
+  color: rgb(228, 225, 225);
+  background-color: #422121e0;
+}

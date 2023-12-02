@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(39, 38, 38);
+}
+
+header {
+  font-family: "Arvo";
+  display: flex;
+}
+
+.text {
+  margin-left: 15rem;
+  margin-top: 13rem;
+  color: rgb(190, 184, 184);
+}
+
+.text1 {
+  color: rgb(202, 4, 4);
+}
+
+.text h1 {
+  font-size: 50px;
+  margin-bottom: 70px;
+}
+
+.text h2 {
+  font-size: 35px;
+  margin: 0;
+}
+
+.text p {
+  font-size: 20px;
+  margin: 0;
+}
+
+header img {
+  margin-top: 5rem;
+  margin-left: 7rem;
+  max-width: 45rem;
+}
